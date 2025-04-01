@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import "tailwindcss";
+
+
+
+@theme {
+   
+   --color-primary: #F3EFEF;
+   --color-secondary: #F6FAA4;
+  --font-family-rubik: "Rubik", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --font-lora: "Lora", sans-serif;
+
+   
+   --min-width-slider: 1250px;
+  --width-item-w: 125px;
+  --height-item-h: 125px;
+  --quantity: 10;
+ --animate-paused:  animation-play-state: paused;
+ 
+   --animate-loop-scroll : loop-scroll 12s linear infinite;
+
+
+   
+
+   @keyframes loop-scroll {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-125%);
+      }
+    }
+  
+  
+   
+}
+
+
+
+
+
+
+
+
+
